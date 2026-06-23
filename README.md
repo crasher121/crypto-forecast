@@ -1,11 +1,11 @@
-# Crypto Forecast — прогноз курсов криптовалют (ML + SARIMA)
+# Crypto Forecast -- прогноз курсов криптовалют (ML + SARIMA)
 
-Студенческий проект: FastAPI-сервис как обвязка над ML-моделью, PostgreSQL,
+Студенческий проект -  FastAPI-сервис как обвязка над ML-моделью, PostgreSQL,
 фоновый сборщик данных и веб-интервфейс на Streamlit. Прогнозирует курсы топ-5
 валютных пар к USD (BTC, ETH, BNB, SOL, XRP) с помощью связки **SARIMA +
 RandomForest по остаткам**.
 
-## Архитектура
+## архитектура сервиса
 
 ```
 CoinMarketCap (live) + CoinGecko (история)
