@@ -1,0 +1,28 @@
+.env
+*.env
+!.env.example
+
+#питон файлф
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+#артефакты моделей
+*.pkl
+models/
+
+# данные постгри
+pgdata/
+
+.vscode/
+.idea/
+
+
+.DS_Store
+*.log
